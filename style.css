@@ -2,4 +2,72 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(#d3c6dd, #d17baa60);
+    overflow: hidden;
+}
+
+button{
+    width: fit-content;
+    padding: 8px;
+    cursor: pointer;
+    border: 1px solid #d17baa60;
+    border-radius: 5px;
+    background: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button:hover{
+    background: #d17baa60;
+}
+
+.container{
+    border: 1px solid black;
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message{
+    border: 1px solid lightslategray;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    width: 500px;
+    height: auto;
+    margin: auto;
+    padding: 0 20px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0,0, 0.5);
+}
+
+.message input{
+    width: 90%;
+    padding: 8px 0px;
+    border: 1px solid #d17baa60;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+    margin-top: 10px;
+}
+
+.message input:hover{
+    background-color: #d17baa60;
+}
+
+h3{
+    color: rgba(116, 16, 94, 0.376);
+}
+
+@media(max-width: 480px){
+    .message input{
+        width: 82%;
+    }
+}
+
+@media(max-width: 320px){
+    .message input{
+        width: 75%;
+    }
 }
