@@ -43,17 +43,19 @@ button:hover{
 
 .message input{
     width: 90%;
-    padding: 8px 0px;
+    padding: 8px 3px;
     border: 1px solid #d17baa60;
     border-radius: 3px;
     background-color: whitesmoke;
     border-top-left-radius: 0%;
     border-bottom-left-radius: 0%;
     margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .message input:hover{
     background-color: #d17baa60;
+
 }
 
 h3{
