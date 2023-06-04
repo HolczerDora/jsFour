@@ -33,7 +33,7 @@ button:hover{
 .message{
     border: 1px solid lightslategray;
     background-color: whitesmoke;
-    border-radius: 5px;
+    border-radius: 1px;
     width: 500px;
     height: auto;
     margin: auto;
@@ -45,7 +45,7 @@ button:hover{
     width: 90%;
     padding: 8px 0px;
     border: 1px solid #d17baa60;
-    border-radius: 5px;
+    border-radius: 3px;
     background-color: whitesmoke;
     border-top-left-radius: 0%;
     border-bottom-left-radius: 0%;
